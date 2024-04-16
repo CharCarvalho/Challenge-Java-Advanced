@@ -12,6 +12,16 @@ Camilla Ribeiro Santana (99491)
 
 Luan Ribeiro Dias (94156)
 
+Cronograma:
+| Etapas | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 |
+| --- | --- | --- | --- | --- |
+| Planejamento e Definição do Projeto | Camilla | Camilla | Camilla | Camilla |
+| API utilizando Spring Boot Java | Charles | Charles | Charles | Charles |
+| Manutenção Banco de Dados | Luan | Luan | Luan | Luan |
+| Conexão interface Java com a IA Generativa | Charles/Raphael | Charles/Raphael | Charles/Raphael | Charles/Raphael |
+| Criação da aplicação web/mobile | Antonio | Antonio | Antonio | Antonio |
+| Elaboração da IA Generativa | Raphael | Raphael | Raphael | Raphael |
+
 Instruções para Rodar a Aplicação:
 Clone o repositório do projeto do GitHub para sua máquina local.
 Certifique-se de ter o ambiente Java e Maven configurados.
