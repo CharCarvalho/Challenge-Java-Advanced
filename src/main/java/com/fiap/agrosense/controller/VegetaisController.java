@@ -37,11 +37,11 @@ public class VegetaisController {
         Optional<Vegetais> vegetalOptional = vegetaisRepository.findById(id);
         if (vegetalOptional.isPresent()) {
             Vegetais vegetalExistente = vegetalOptional.get();
-            vegetalExistente.setNm_vegetais(vegetalAtualizado.getNm_vegetais());
-            vegetalExistente.setSt_vegetais(vegetalAtualizado.getSt_vegetais());
-            vegetalExistente.setId_usuario(vegetalAtualizado.getId_usuario());
-            vegetalExistente.setLk_imagem(vegetalAtualizado.getLk_imagem());
-            vegetalExistente.setDt_imagem(vegetalAtualizado.getDt_imagem());
+            vegetalExistente.setNomeVegetais(vegetalAtualizado.getNomeVegetais());
+            vegetalExistente.setStatusVegetal(vegetalAtualizado.getStatusVegetal());
+            vegetalExistente.setIdCliente(vegetalAtualizado.getIdCliente());
+            vegetalExistente.setLinkImagem(vegetalAtualizado.getLinkImagem());
+            vegetalExistente.setDataImagem(vegetalAtualizado.getDataImagem());
             return vegetaisRepository.save(vegetalExistente);
         }
         return null; 
