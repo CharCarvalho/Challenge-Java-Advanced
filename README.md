@@ -73,14 +73,21 @@ Endpoints da API:
 Clientes:
 Listar todos os Clientes: GET /clientes
 ![GET Clientes](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/a551708f-17a9-4cf0-839e-ddbe1555ade4)
-
-Buscar clientes por ID: GET /clientes/{id}
 Criar um novo clientes: POST /clientes
+![POST Clientes](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/0fd0833c-39d8-4e1f-8797-5c9aa56a8e69)
 Atualizar clientes por ID: PUT /clientes/{id}
+![PUT Clientes](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/1e2bc8b9-88b9-473e-9715-0a34d130eb6b)
 Excluir clientes por ID: DELETE /clientes/{id}
+![DELETE Clientes](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/1d1ffae0-0fbf-4b3a-ba7a-58bbcf0cd0dc)
+![GET após DELETE Clientes](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/e1a31565-6f1d-492d-b015-f642f54041ab)
+
 Vegetais:
 Listar todos os vegetais: GET /vegetais
-Buscar vegetal por ID: GET /vegetais/{id}
+![GET Vegetais](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/576e9ed9-68d4-49f2-97a1-08fd1f3052b2)
 Criar um novo vegetal: POST /vegetais
+![POST Vegetais](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/8d752219-b0ea-4c52-bb98-92e92501a5a8)
 Atualizar vegetal por ID: PUT /vegetais/{id}
+![PUT Vegetais](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/f06521c6-aedf-4b84-ab75-3c0b8ee2c934)
 Excluir vegetal por ID: DELETE /vegetais/{id}
+![DELETE Vegetais](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/f83d9f16-5e4c-42c3-9ab2-9617e2a0343d)
+![GET após DELETE Vegetais](https://github.com/CharCarvalho/Challenge-Java-Advanced/assets/126685062/27fc6fe8-42d8-46e8-9a30-76dd66efb0ee)
