@@ -19,7 +19,7 @@ jobs:
       - name: Build Project
         run: mvn clean install -DskipTests
       - name: Upload Artifact for Deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: agrosense
           path: ${{ github.workspace }}/target/*.jar
@@ -28,7 +28,7 @@ jobs:
     needs: build
     steps:
       - name: Download Artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: agrosense
       - name: Deploy to Azure App Services
