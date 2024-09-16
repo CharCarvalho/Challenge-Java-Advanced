@@ -32,7 +32,7 @@ jobs:
         with:
           name: agrosense
       - name: Deploy to Azure App Services
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
         with:
           app-name: agrosense-api
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
